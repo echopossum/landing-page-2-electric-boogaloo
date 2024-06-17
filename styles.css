@@ -172,3 +172,41 @@ p{
     margin-right: 50px;
     font-size: 20px;
 }
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.section-4 .section-content{
+    background-color: var(--button-color);
+    margin-top: 100px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.section-4-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 .sign-up-button{
+    border-color: var(--secondary-text);
+    border: 3px solid;
+    height: 40px;
+    margin: 0px;
+}
+
+.section-4 h1,
+.section-4 p{
+    margin: 0px;
+    color: var(--secondary-text);
+}
